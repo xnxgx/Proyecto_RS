@@ -16,18 +16,18 @@ Este roadmap está diseñado para un desarrollo de 6-8 meses, dividido en fases 
 
 ### Semana 3-4: Arquitectura Base
 - [ ] Diseñar esquema de base de datos
-- [ ] Configurar Express.js con TypeScript
+- [ ] Configurar FastAPI con Python
 - [ ] Implementar autenticación básica (JWT)
-- [ ] Configurar Prisma ORM
+- [ ] Configurar SQLAlchemy + Alembic
 - [ ] Implementar middleware de seguridad básico
 - [ ] Configurar logging y monitoreo básico
 
 ### Semana 5-6: Frontend Base
-- [ ] Configurar React con TypeScript
-- [ ] Configurar Redux Toolkit
-- [ ] Configurar React Router
+- [ ] Configurar JavaScript Vanilla con Vite
+- [ ] Configurar Zustand para estado
+- [ ] Configurar Navigo para routing
 - [ ] Configurar Tailwind CSS
-- [ ] Implementar componentes base (Button, Input, etc.)
+- [ ] Implementar Web Components base (Button, Input, etc.)
 - [ ] Configurar testing básico
 
 ### Semana 7-8: Integración Inicial

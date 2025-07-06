@@ -34,13 +34,13 @@ red_social/
 - [ ] Testing y optimización
 - [ ] Despliegue
 
-## Tecnologías (Por definir)
-- Frontend: 
-- Backend: 
-- Base de datos: 
-- Autenticación: 
-- Almacenamiento multimedia: 
-- Despliegue: 
+## Tecnologías
+- **Frontend**: JavaScript Vanilla + Vite, Zustand, Navigo, Web Components, Tailwind CSS
+- **Backend**: Python + FastAPI, SQLAlchemy, Pydantic
+- **Base de datos**: PostgreSQL, Redis
+- **Autenticación**: JWT + bcrypt
+- **Almacenamiento multimedia**: AWS S3 + boto3
+- **Despliegue**: Docker, Kubernetes, AWS
 
 ## Cómo Contribuir
 1. Revisar la documentación en `/docs`

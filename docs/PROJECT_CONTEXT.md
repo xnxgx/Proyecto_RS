@@ -9,19 +9,19 @@ Una red social moderna y futurista que permite a los usuarios compartir contenid
 ## Decisiones Técnicas Tomadas
 
 ### Stack Tecnológico
-- **Frontend**: React.js con TypeScript, Redux Toolkit, Tailwind CSS
-- **Backend**: Node.js con Express.js, TypeScript, Prisma ORM
+- **Frontend**: JavaScript Vanilla + Vite, Zustand (estado), Navigo (routing), Web Components, Tailwind CSS
+- **Backend**: Python + FastAPI, SQLAlchemy + Alembic, Pydantic
 - **Base de Datos**: PostgreSQL (principal), Redis (cache)
 - **Autenticación**: JWT + bcrypt
-- **Almacenamiento**: AWS S3 o similar para archivos multimedia
-- **Tiempo Real**: Socket.io para WebSockets
+- **Almacenamiento**: AWS S3 con boto3 para archivos multimedia
+- **Tiempo Real**: WebSockets nativos de FastAPI
 - **Despliegue**: Docker, Kubernetes, AWS
 
 ### Arquitectura
 - **Patrón**: Monolito modular (evolucionará a microservicios)
-- **API**: RESTful con documentación OpenAPI
-- **Estado**: Redux Toolkit en frontend, Redis para cache
-- **Base de Datos**: PostgreSQL con particionamiento futuro
+- **API**: RESTful con documentación OpenAPI automática (FastAPI)
+- **Estado**: Zustand en frontend, Redis para cache
+- **Base de Datos**: PostgreSQL con SQLAlchemy ORM
 
 ## Requerimientos Clave
 
@@ -113,11 +113,12 @@ Una red social moderna y futurista que permite a los usuarios compartir contenid
 5. Crear componentes base del frontend
 
 ## Notas de Desarrollo
-- Usar TypeScript en todo el proyecto
-- Documentar APIs con OpenAPI/Swagger
+- Usar JavaScript ES6+ en frontend, Python 3.9+ en backend
+- Documentar APIs con OpenAPI automático (FastAPI)
 - Implementar testing desde el inicio
 - Seguir convenciones de código consistentes
 - Mantener documentación actualizada
+- Usar Web Components para reutilización de código frontend
 
 ## Contactos y Recursos
 - **Repositorio**: [URL del repositorio]
@@ -126,6 +127,6 @@ Una red social moderna y futurista que permite a los usuarios compartir contenid
 - **Referencias**: [Enlaces a documentación relevante]
 
 ---
-**Última actualización**: [Fecha]
-**Versión**: 1.0
-**Próxima revisión**: [Fecha] 
+**Última actualización**: 6 de Julio, 2025
+**Versión**: 2.0
+**Próxima revisión**: 20 de Julio, 2025 
