@@ -1,0 +1,44 @@
+{
+  "name": "red-social-frontend",
+  "version": "1.0.0",
+  "description": "Frontend de la red social con JavaScript Vanilla",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .js",
+    "lint:fix": "eslint src --ext .js --fix",
+    "format": "prettier --write src/**/*.{js,css,html}"
+  },
+  "dependencies": {
+    "zustand": "^4.4.7",
+    "navigo": "^8.11.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.3.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/dom": "^9.3.3"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla",
+    "vite",
+    "tailwindcss",
+    "websockets",
+    "social-network"
+  ],
+  "author": "Red Social Team",
+  "license": "MIT"
+} 

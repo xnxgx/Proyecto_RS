@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Social - Conectando Personas</title>
+  <meta name="description" content="Una red social moderna y futurista para conectar personas">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="fixed inset-0 bg-white z-50 flex items-center justify-center">
+    <div class="text-center">
+      <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
+      <p class="text-gray-600">Cargando Red Social...</p>
+    </div>
+  </div>
+
+  <!-- Main App Container -->
+  <div id="app" class="min-h-screen">
+    <!-- Navigation -->
+    <nav id="navigation" class="bg-white shadow-sm border-b border-gray-200">
+      <!-- Navigation content will be injected here -->
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container mx-auto px-4 py-8">
+      <!-- Page content will be injected here -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-gray-800 text-white py-8 mt-auto">
+      <!-- Footer content will be injected here -->
+    </footer>
+  </div>
+
+  <!-- Modals Container -->
+  <div id="modals-container"></div>
+
+  <!-- Notifications Container -->
+  <div id="notifications-container" class="fixed top-4 right-4 z-40"></div>
+
+  <!-- Scripts -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html> 
